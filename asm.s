@@ -1,0 +1,18 @@
+push 0xa
+push 0x7d4d5341  
+push 0x4e2d3074
+push 0x2d656d30 
+push 0x636c3357 
+push 0x7b465443 
+push 0x7265626d 
+push 0x654d203a 
+push 0x67616c46
+
+mov eax,4
+mov ebx,1
+mov ecx,esp
+mov edx,33
+int 0x80
+
+mov eax,1
+int 0x80
