@@ -38,6 +38,5 @@ int main()
 		puts(flag);
 		fclose(fp);
 	}
-
 	return 0;
 }
